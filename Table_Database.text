@@ -1,0 +1,9 @@
+CREATE TABLE react2 (
+    uid int(10) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    username varchar(25) NOT NULL,
+    email text NOT NULL,
+    password text NOT NULL,
+    create_date datetime NOT NULL,
+    update_date datetime NOT NULL
+
+) ENGINE=InnoDB default CHARSET=utf8;
